@@ -5,48 +5,12 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { SectionHeader } from "@/components/SectionHeader";
-import mercury from "@/assets/images/mercury.png";
+import smileTwice from "@/assets/images/smileTwice.png";
 import grili from "@/assets/images/grili.png";
 import perfume from "@/assets/images/perfume.png";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
-	// {
-	//   company: "Acme Corp",
-	//   year: "2022",
-	//   title: "Dark Saas Landing Page",
-	//   results: [
-	//     { title: "Enhanced user experience by 40%" },
-	//     { title: "Improved site speed by 50%" },
-	//     { title: "Increased mobile traffic by 35%" },
-	//   ],
-	//   link: "https://codewithsadee.github.io/grilli/",
-	//   image: darkSaasLandingPage,
-	// },
-	// {
-	//   company: "Innovative Co",
-	//   year: "2021",
-	//   title: "Light Saas Landing Page",
-	//   results: [
-	//     { title: "Boosted sales by 20%" },
-	//     { title: "Expanded customer reach by 35%" },
-	//     { title: "Increased brand awareness by 15%" },
-	//   ],
-	//   link: "https://youtu.be/7hi5zwO75yc",
-	//   image: lightSaasLandingPage,
-	// },
-	// {
-	//   company: "Quantum Dynamics",
-	//   year: "2023",
-	//   title: "AI Startup Landing Page",
-	//   results: [
-	//     { title: "Enhanced user experience by 40%" },
-	//     { title: "Improved site speed by 50%" },
-	//     { title: "Increased mobile traffic by 35%" },
-	//   ],
-	//   link: "https://youtu.be/Z7I5uSRHMHg",
-	//   image: aiStartupLandingPage,
-	// },
 	{
 		company: "Grilli",
 		year: "2024",
@@ -60,16 +24,16 @@ const portfolioProjects = [
 		image: grili,
 	},
 	{
-		company: "Mercury",
+		company: "Smile Twice",
 		year: "2024",
-		title: "Light Saas Landing Page",
+		title: "Ecommerce page",
 		results: [
 			{ title: "Boosted sales by 20%" },
 			{ title: "Expanded customer reach by 35%" },
 			{ title: "Increased brand awareness by 15%" },
 		],
-		link: "https://mercury.com/?ref=land-book.com",
-		image: mercury,
+		link: "https://smiletwice.com/",
+		image: smileTwice,
 	},
 	{
 		company: "COTE ROYALE PARIS",
