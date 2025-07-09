@@ -20,7 +20,7 @@ export const Footer = () => {
 							<p
 								className="inline-flex items-center gap-1.5 z-50"
 							>
-								WhatsApp: {" "}
+								WhatsApp:
 								<span className="font-semibold">+919394070912</span>
 								<ArrowUpRightIcon className="size-4" />
 							</p>
@@ -28,7 +28,7 @@ export const Footer = () => {
 							<p
 								className="inline-flex items-center gap-1.5 z-50"
 							>
-								Email: {" "}
+								Email:
 								<span className="font-semibold">codestudio.service@gmail.com</span>
 								<ArrowUpRightIcon className="size-4" />
 							</p>
