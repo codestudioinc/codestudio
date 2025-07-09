@@ -1,24 +1,5 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
-const footerLinks = [
-	{
-		title: "WhatsApp",
-		href: "tel:+919394070912",
-	},
-	{
-		title: "Twitter",
-		href: "https://x.com/CodeStudioinc",
-	},
-	{
-		title: "Instagram",
-		href: "https://www.instagram.com/codestudio.inc/",
-	},
-	{
-		title: "LinkedIn",
-		href: "https://www.linkedin.com/in/codestudio-inc-25453b36a/",
-	},
-];
-
 export const Footer = () => {
 	return (
 		<footer className="relative overflow-hidden">
@@ -36,15 +17,21 @@ export const Footer = () => {
 				<div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
 					<div className="text-white/40">&copy; 2025. All rights reserved.</div>
 					<nav className="flex flex-col md:flex-row items-center gap-8">
-						{footerLinks.map((link) => (
-							<a
-								href={link.href}
-								key={link.title}
+							<p
 								className="inline-flex items-center gap-1.5 z-50"
 							>
-								<span className="font-semibold">{link.title}</span>
+								WhatsApp: {" "}
+								<span className="font-semibold">+919394070912</span>
 								<ArrowUpRightIcon className="size-4" />
-							</a>
+							</p>
+
+							<p
+								className="inline-flex items-center gap-1.5 z-50"
+							>
+								Email: {" "}
+								<span className="font-semibold">codestudio.service@gmail.com</span>
+								<ArrowUpRightIcon className="size-4" />
+							</p>
 						))}
 					</nav>
 				</div>
